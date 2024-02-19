@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function sumnum() {
+        let arr = prompt("nhap so va cach nhau bang dau phay").split(",").map(Number);
+        let sum=0
+        for (let i=0;i<arr.length;i++){
+            if (Number.isInteger(arr[i])){
+            sum+=arr[i]
+        }
+        }
+        return sum
+    }console.log(sumnum())
+</script>
+</body>
+</html>

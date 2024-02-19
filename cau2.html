@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let soLuongPhanTu = demPhanTu();
+    function demPhanTu() {
+    let nhapChuoi = prompt("nhap so va cach nhau bang dau phay");
+    if (!nhapChuoi) {
+        console.log("khong co phan tu nao");
+        return 0;
+    }
+
+     let mangPhanTu = nhapChuoi.split(",");
+     return mangPhanTu.length;
+    }
+    console.log("so luong phan tu " + soLuongPhanTu);
+
+</script>
+</body>
+</html>

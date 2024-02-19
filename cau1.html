@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array=[23,34,21,323,32,45,6,7,1]
+    demSoSoChan(array)
+    function demSoSoChan(arr) {
+        let dem = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 === 0) {
+                dem++;
+            }
+        }
+
+        console.log("Số lượng số chẵn trong mảng là: " + dem);
+    }
+
+
+
+</script>
+</body>
+</html>
